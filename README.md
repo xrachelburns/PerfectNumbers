@@ -58,6 +58,7 @@ I tested the program in CodeSnack IDE using different search limits to make sure
 | Initial search (1–200) | Found 6 and 28 |
 | Upper limit of 123 | Found 6 and 28 |
 | Upper limit of 1000 | Found 6, 28, and 496 |
+| Upper limit of 2147483648 | Accepted as a `long`, displayed a warning, and canceled successfully when I entered `no` |
 
 The program also includes input validation for numbers outside the supported range and a warning before searches with an upper limit greater than 1,000,000.
 
